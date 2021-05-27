@@ -27,7 +27,7 @@
         "id": "plugins",
         "name": "Plugins",
         "type": "Symbol",
-        "default": "autoresize textpattern lists media image",
+        "default": "autoresize textpattern lists media image code",
         "required": false,
         "description": "Space separated list of TinyMCE plugins to enable. See https://www.tiny.cloud/docs/plugins/ for more information on plugins."
       },
