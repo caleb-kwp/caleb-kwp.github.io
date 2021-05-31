@@ -27,7 +27,7 @@
         "id": "plugins",
         "name": "Plugins",
         "type": "Symbol",
-        "default": "autoresize textpattern lists media image code",
+        "default": "autoresize textpattern lists media image code link",
         "required": false,
         "description": "Space separated list of TinyMCE plugins to enable. See https://www.tiny.cloud/docs/plugins/ for more information on plugins."
       },
@@ -35,7 +35,7 @@
         "id": "toolbar",
         "name": "Toolbar",
         "type": "Symbol",
-        "default": "undo redo | formatselect | bold italic | alignleft aligncenter alignright alignjustify | numlist bullist outdent intent | code",
+        "default": "undo redo | formatselect link | bold italic | alignleft aligncenter alignright alignjustify | numlist bullist outdent intent | code",
         "required": false,
         "description": "Specify your toolbar configuration here. To use the default toolbar, clear this field. To hide the toolbar, enter the value 'false'. See https://www.tiny.cloud/docs/configure/editor-appearance/#"
       },
